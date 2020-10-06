@@ -9,6 +9,8 @@ function enterplayer(){
     button.hide()
     input.hide()
     reset.hide()
+    //title.hide()
+    //hello.hide()
     pc=pc+1;
 
     db.ref('/').update({
@@ -31,3 +33,4 @@ function resetD(){
     })
     db.ref('players').remove()
 }
+
