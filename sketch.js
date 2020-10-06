@@ -87,9 +87,10 @@ function draw(){
     }
 
     if(gs==1){
-     background(bg)
-    //  image(bg,0,0,displayWidth,displayHeight)
-       
+     background(0)
+        console.log(bg.height)
+    image(bg,0,0,displayWidth,7848)
+      // title.hide()
         
         var index=0
         var x=400
